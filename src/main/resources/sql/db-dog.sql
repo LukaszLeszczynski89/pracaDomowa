@@ -1,0 +1,8 @@
+CREATE SCHEMA IF NOT EXISTS jdbc_schema;
+
+CREATE TABLE IF NOT EXISTS Dogs
+(
+    ID_DOG      int AUTO_INCREMENT PRIMARY KEY,
+    NAME    varchar(50),
+    DOG_BREEDS varchar(50)
+);
